@@ -1,7 +1,7 @@
 # PyChat
 Python chat client with one main server and multiple clients
 
-A python chat server using tkinter for a user interface. The program can either be run by running 'main.py' from IDLE or command line (or Terminal).
+A socket based python chat server using tkinter for a user interface. The program can either be run by running 'main.py' from IDLE or command line (or Terminal).
 
 Features: (Version :: 0.1)
   - Commands
