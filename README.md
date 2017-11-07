@@ -44,6 +44,15 @@ Below is a list of the program's features and what version the program is.
     - Multiple users can connect and chat at any one time
   - Usernames
     - User chooses a username on login so that other users can identify them easily
+### Version Checking
+To check the version of your code run:
+```
+python main.py -v
+```
+or
+```
+python main.py --version
+```
 
 
 ## License
