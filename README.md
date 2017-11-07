@@ -14,6 +14,8 @@ Features: (Version :: 0.1)
   - Fullscreen or Windowed Mode
     - /fullscreen # Toggles fullscreen mode
   - Multiple users
-    - # Multiple users can connect and chat at any one time
+    - Multiple users can connect and chat at any one time
   - Usernames
-    - # User chooses a username on login so that other users can identify them easily
+    - User chooses a username on login so that other users can identify them easily
+    
+Any ideas / suggestions / bugs please let me know as this is very much still a WIP
