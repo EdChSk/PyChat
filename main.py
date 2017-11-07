@@ -3,6 +3,7 @@ import socket
 import time
 import random
 import threading
+import sys
 
 class Main_window():
     def __init__(self,master):
@@ -42,6 +43,26 @@ class User():
         self.messages = ["1","2","3","4","5","6","7","8"]
         print("...User Created")
         self.window = Main_window(self)
-        
+# Imports version from text file
+f = open("version.txt","r")
+vers = f.read()
+f.close()
 
-User()
+
+
+if len(sys.argv) > 1:
+    if sys.argv[1] == "-v" or sys.argv[1] == "--version":
+        print("  PyChat Version: "+str(vers))
+    elif sys.argv[1] == "-h":
+        print("  ### HELP 1/1 ###")
+        print("    -v --version # Returns program version")
+    else:
+        print("  UNKNOWN ARGUMENT TYPE -h FOR HELP")
+else:
+    print("  ____         ____ _           _   ")
+    print(" |  _ \ _   _ / ___| |__   __ _| |_ ")
+    print(" | |_) | | | | |   | '_ \ / _` | __|")
+    print(" |  __/| |_| | |___| | | | (_| | |_ ")
+    print(" |_|    \__, |\____|_| |_|\__,_|\__|")
+    print("        |___/                       ")
+    User()
