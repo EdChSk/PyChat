@@ -1,6 +1,6 @@
 # PyChat
 
-PyChat is an easy to use chat server coded in python. When started the user can enter a username and address to connect with or can press to host button to allow for other users to connect to them.
+PyChat is an easy to use chat server coded in python. When started the user can enter a username and address to connect with or can press to host button to allow for other users to connect to them. It is easy to host on a local network and with a bit of knowledge you can port forward to chat anytime.
 
 ## Getting Started
 These instructions will help you get a copy of this project up and running on your local machine for development, testing, or general use.
@@ -25,6 +25,11 @@ Linux (Terminal):
 ```
 sudo python3 main.py
 ```
+### Hosting a server
+To host a server for other people to connect to just run the main.py (explained above) and then press the 'Host Button'. This will display a cool animation and sometimes ask permission through your firewall :). After the animation it will display a IP address for your clients to connect to. (The port is 9009 by default)
+
+### Connecting To A Server
+To connect to a server run 'main.py' (explained above), enter a username, and then enter the servers IP address. Click login and you should connect. An error window will popup if the socket fails to connect.
 
 ## Features:
 
