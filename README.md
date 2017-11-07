@@ -48,7 +48,7 @@ Below is a list of the program's features and what version the program is.
 
 
 ## License
-This project is licensed under the GNU Lesser General Public License v3.0 - See the [LICENCE](LICENSE.md) file for more details
+This project is licensed under the GNU Lesser General Public License v3.0 - See the [LICENCE](LICENSE) file for more details
 
 ## Authors
 * **EdChSk** - *Initial work* - [Github Profile](https://github.com/EdChSk)
