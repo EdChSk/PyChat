@@ -49,17 +49,17 @@ Below is a list of the program's features and what version the program is.
 *'-' represents already in the projects and '+' indicates an addition to the project.*
 ### Version 0.2
   - Commands
-    - /exit -- [Client] disconnects from server
+    - /exit -- [Client] disconnects from server -
   - Multiple users
-    + Multiple users can connect and chat at any one time (FIXED)
+    + Multiple users can connect and chat at any one time (FIXED) +
   - Usernames
-    - User chooses a username on login so that other users can identify them easily
-    + Checks username is not taken before login
-  - Command line interface
-    + Added command line client
-    + Added command line server
-    + Added GUI client
-    + Added command line arguments
+    - User chooses a username on login so that other users can identify them easily -
+    + Checks username is not taken before login +
+  - Command line interface +
+    + Added command line client +
+    + Added command line server +
+    + Added GUI client +
+    + Added command line arguments +
 
 ### Version Checking
 To check the version of your code run:
