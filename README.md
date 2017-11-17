@@ -25,30 +25,30 @@ Linux (Terminal):
 ```
 sudo python3 main.py
 ```
+This will then ask you what mode you would like to use. Client is a command line client, ClientG is a GUI client, and Server will run a server.
 ### Hosting a server
-To host a server for other people to connect to just run the main.py (explained above) and then press the 'Host Button'. This will display a cool animation and sometimes ask permission through your firewall :). After the animation it will display a IP address for your clients to connect to. (The port is 9009 by default)
+To host a server for other people to connect to just run the main.py (explained above) and then type 'Server' when prompted. This will then host a server from your local machene and sometimes ask permission through your firewall :). After botting it will display a IP address for your clients to connect to. (The port is 9009 by default unless you changed it)
 
 ### Connecting To A Server
-To connect to a server run 'main.py' (explained above), enter a username, and then enter the servers IP address. Click login and you should connect. An error window will popup if the socket fails to connect.
+To connect to a server run 'main.py' (explained above), type 'Client' or 'ClientG' when prompted for a mode, enter a username, and then enter the servers IP address and port. Click login and you should connect. A notification will apear if your username is allready taken.
 
 ## Features:
 
 Below is a list of the program's features and what version the program is. 
 *'-' represents already in the projects and '+' indicates an addition to the project.*
-### Version 0.1
+### Version 0.2
   - Commands
-    - /help -- Displays commands and syntax
-    - /clean -- Clears text off of the screen
-    - /export -- [Server] Exports chat log to file
-    - /close -- [Server] Closes server
-    - /host -- [Server] Returns IP address
     - /exit -- [Client] disconnects from server
-  - Fullscreen or Windowed Mode
-    - /fullscreen # Toggles fullscreen mode
   - Multiple users
     - Multiple users can connect and chat at any one time
   - Usernames
     - User chooses a username on login so that other users can identify them easily
+    + Checks username is not taken before login
+  - Command line interface
+    + Added command line client
+    + Added command line server
+    + Added GUI client
+
 ### Version Checking
 To check the version of your code run:
 ```
