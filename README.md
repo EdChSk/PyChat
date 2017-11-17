@@ -25,7 +25,18 @@ Linux (Terminal):
 ```
 sudo python3 main.py
 ```
-This will then ask you what mode you would like to use. Client is a command line client, ClientG is a GUI client, and Server will run a server.
+This will then ask you what mode you would like to use. Client is a command line client, ClientG is a GUI client, and Server will run a server. Alternatively you can use the command line arguments. For a list of the possable arguments run:
+
+Windows (CMD):
+```
+python3 main.py -h
+```
+Linux (Terminal):
+```
+sudo python3 main.py -h
+```
+
+
 ### Hosting a server
 To host a server for other people to connect to just run the main.py (explained above) and then type 'Server' when prompted. This will then host a server from your local machene and sometimes ask permission through your firewall :). After botting it will display a IP address for your clients to connect to. (The port is 9009 by default unless you changed it)
 
@@ -40,7 +51,7 @@ Below is a list of the program's features and what version the program is.
   - Commands
     - /exit -- [Client] disconnects from server
   - Multiple users
-    - Multiple users can connect and chat at any one time
+    + Multiple users can connect and chat at any one time (FIXED)
   - Usernames
     - User chooses a username on login so that other users can identify them easily
     + Checks username is not taken before login
@@ -48,6 +59,7 @@ Below is a list of the program's features and what version the program is.
     + Added command line client
     + Added command line server
     + Added GUI client
+    + Added command line arguments
 
 ### Version Checking
 To check the version of your code run:
@@ -65,11 +77,6 @@ This project is licensed under the GNU Lesser General Public License v3.0 - See 
 
 ## Authors
 * **EdChSk** - *Initial work* - [Github Profile](https://github.com/EdChSk)
-
-## Acknowledgments
-* Thanks to HowCode for the great video which inspired the project, the video can be found [here](https://www.youtube.com/watch?v=D0SLpD7JvZI)
-* Thanks to anyone who has assisted me by pointing out any mistakes or bugs
-
 
 **Any ideas / suggestions / bugs please let me know as this is very much still a WIP**
 
